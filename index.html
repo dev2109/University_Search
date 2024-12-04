@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Search</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="search-header">
+    <div class="search-bar-container">
+      <input type="text" id="countryInput" placeholder="Search your desired Country">
+      <span class="search-icon">🔍</span>
+    </div>
+    <div class="dropdown-container">
+      <select id="stateDropdown" disabled>
+        <option value="">State/Province</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="overlay"></div>
+    <div class="university-cards" id="universityCards"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
